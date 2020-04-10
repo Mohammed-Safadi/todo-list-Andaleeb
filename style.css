@@ -1,0 +1,113 @@
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    
+}
+.container {
+    width: 700px;
+    margin: auto;
+    position: relative;
+    display: inline;
+   
+}
+.overlay{
+    background:rgba(49,55,61,.8);
+    width: 100%;
+    height: 100%;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 14px;
+    }
+    
+     :-moz-input-placeholder{
+        font-size: 14px;
+    }
+    
+     :-ms-input-placeholder{
+        font-size: 14px;
+    } 
+.add-task{
+    background: url('../imag/2imges.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+  
+   color: #FFF
+}
+.task{
+    padding: 5px  0;
+    margin: auto;
+    
+    
+}
+
+.add-task form{
+    padding: 84px 0;
+    width: 700px;
+    margin: auto;
+     margin-left: 12%;
+    
+}
+.add-task form input[type="text" ]{
+    padding:0 10px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+}
+
+.add-task form button{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: #F7600E;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+   
+}
+ul {
+	list-style-type: none;
+	width: 900px;
+}
+li {
+    width: 700px;
+	padding-left: 2px;
+    border-bottom:  2px solid #FFF;
+	margin-bottom: 20px;
+         margin-left: 12%;
+
+
+}
+li:hover .bt1 {
+	visibility: visible;
+}
+
+
+.Done {
+    color: rgb(79,234,12);
+	
+}
+.Delete {
+    color:  #F7600E;
+}
+
+.bt1 {
+    padding-right: 20px;
+	float: right;
+	visibility: hidden;
+
+}
+
+
+li:hover {
+	border-bottom:  2px solid rgba(49,55,61,.7);
+}
